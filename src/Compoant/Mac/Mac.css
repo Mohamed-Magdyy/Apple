@@ -1,0 +1,49 @@
+.home {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  height: 100vh;
+}
+.home p:nth-child(1) {
+  color: orange;
+}
+.home2{
+     background-color: black;
+     color: white;
+     overflow: hidden;
+
+ }
+ .home2 p:nth-child(1){
+     color: orange;
+ }
+
+.item-mac2{
+     border-radius: 7px;
+ }
+ .imge img{
+     border-radius: 7px;
+ }
+
+.bgContainerwhite{
+    background-color: white;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.bgContainerOfwhite{
+    overflow: hidden;
+    background-color: #fafafa;
+    border-radius: 8px;
+}
+.bgContainerOfwhiteMac{
+    overflow: hidden;
+    background-color: #f1efef;
+    border-radius: 8px;
+}
+@media screen and (min-width:200px) and (max-width:600px) {
+    h2{
+         font-size: 15px !important;
+    }
+    h1{
+        font-size: 15px !important;
+   }
+}

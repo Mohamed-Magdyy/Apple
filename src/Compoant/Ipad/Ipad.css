@@ -1,0 +1,44 @@
+.image img{
+     width: 100%;
+ }
+
+.title p:nth-child(1){
+     color: orangered;
+}
+.title2{
+     color: white;
+}
+.title2 p:nth-child(1){
+     color: orangered;
+
+}
+.ois img {
+     transition: 1s;
+}
+.ois:hover img{
+     transform: scale(1.1);
+}
+.bgContainerblack{
+     background-color: black;
+     color: white;
+     overflow: hidden;
+}
+.image-ipadSize img{
+     width: 41.5%;
+}
+.image-ipadSize2 img{
+     width: 40%;
+}
+.bgContainerwhite{
+     background-color: white;
+     overflow: hidden;
+     border-radius: 7px;
+}
+@media screen and (min-width:200px) and (max-width:600px) {
+     h2{
+          font-size: 15px !important;
+     }
+     h1{
+         font-size: 15px !important;
+    }
+ }

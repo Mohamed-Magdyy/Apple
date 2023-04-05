@@ -1,0 +1,16 @@
+.imge-denf img{
+     width: 16%;
+ }
+ .right-anmation{
+    position: relative;
+    left: 90%;
+} 
+ .right-anmation-def{
+     position: relative;
+     left: -90%;
+} 
+.top-anmation{
+position: relative;
+top: 100%;
+}
+ 

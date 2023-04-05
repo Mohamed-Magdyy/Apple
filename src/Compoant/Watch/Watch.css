@@ -1,0 +1,89 @@
+.bgContainerOf{
+     border-radius: 7px;
+     background-color: #f4f3f3;
+     overflow: hidden;
+}
+.bgContainerOfwhite{
+     overflow: hidden;
+     background-color: #fafafa;
+}
+.bgContainerblack{
+     background-color: black;
+     overflow: hidden;
+     color: white;
+}
+.bgContainerwhite{
+     background-color: white;
+     overflow: hidden;
+     border-radius: 7px;
+}
+.imge-critve img{
+     width: 80%;
+}
+.imge-fitnes{
+     position: relative;
+}
+.imge-fitnes2{
+     position: absolute;
+     top: 50%;
+     right: 50px;
+}
+@media screen and (min-width:100px) and (max-width:992px) {
+     .hide{
+          display: none;
+     }
+     
+}
+@media screen and (min-width:992px) and (max-width:3000px) {
+     .hide2{
+          display: none;
+     }     
+}
+.imge-acsesor{
+     position: relative;
+}
+.imge-watch-move img{
+  width: 11%;
+  top: 3%;
+  left: 44.5%;
+  position: absolute;
+}
+@media screen and (min-width:200px) and (max-width:600px) {
+     h2{
+          font-size: 15px !important;
+     }
+     h1{
+          font-size: 15px !important;
+     }
+}
+.animate__animated animate__fadeInLeft {
+     --animate-duration: 2s;
+     overflow: hidden;
+}
+ 
+.right-anmation{
+    position: relative;
+    left: 97%;
+} 
+.left-anmation{
+     position: relative;
+     left: -82%;
+ } 
+ .right-anmation-def{
+     position: relative;
+     left: -90%;
+ } 
+ .left-anmation-def{
+      position: relative;
+      left: 110%;
+  } 
+.right-anmation-acsesor{
+     position: relative;
+     left: 97%;
+}
+.right-anmation-deff{
+     position: relative;
+     left: 97%;
+} 
+
+  

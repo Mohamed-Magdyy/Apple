@@ -1,0 +1,47 @@
+.new {
+     color: orangered;
+   }
+p{
+     opacity: 0.7 !important;
+}
+.bgContainerwhite{
+     background-color: white;
+     overflow: hidden;
+     border-radius: 7px;
+}
+.bgContainerblack{
+     background-color: black;
+     color: white;
+}
+.bgContainerOfwhite{
+     overflow: hidden;
+     background-color: #fafafa;
+}
+.image-iphone img{
+     width: 47.3%;
+}
+.image-iphone2 img{
+     width: 42.3%;
+}
+.image-iphone3 img{
+     width: 40%;
+}
+.text-bestIphone{
+     position: absolute;
+     top: 0;
+     left: 34%;
+}
+@media screen and (min-width:200px) and (max-width:1000px) {
+     .hide-container {
+       display: none;
+      
+     }
+}
+@media screen and (min-width:200px) and (max-width:600px) {
+     h2{
+          font-size: 15px !important;
+     }
+     h1{
+          font-size: 15px !important;
+     }
+}
